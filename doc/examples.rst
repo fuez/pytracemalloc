@@ -187,7 +187,7 @@ ignoring ``<frozen importlib._bootstrap>`` and ``<unknown>`` files::
     # ... run your application ...
 
     snapshot = tracemalloc.take_snapshot()
-    display_top(snapshot, 10)
+    display_top(snapshot)
 
 Example of output of the Python test suite::
 
