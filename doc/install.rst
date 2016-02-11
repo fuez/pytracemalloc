@@ -17,7 +17,7 @@ First, create the directory ``/opt/tracemalloc``. Example::
     sudo mkdir /opt/tracemalloc
     sudo chown $USER: /opt/tracemalloc
 
-Commands to compile a patched Python and install pytracemalloc::
+Go into the `/opt/tracemalloc` directory. Then follow these commands to compile a patched Python and install pytracemalloc::
 
     wget http://www.python.org/ftp/python/2.7.8/Python-2.7.8.tgz
     wget https://pypi.python.org/packages/source/p/pytracemalloc/pytracemalloc-1.2.tar.gz
