@@ -1,6 +1,18 @@
 Installation
 ============
 
+Use Python 3.4 or newer
+-----------------------
+
+tracemalloc is now part of Python 3.4 standard library! Nothing to do, enjoy!
+
+.. note::
+   Installing pytracemalloc on Python older than 3.4 is much more complex, it
+   requires to recompile a patched version of Python. It is worth to try to run
+   your application on Python 3.4 rather than trying to compile and install
+   manually pytracemalloc on older versions of Python.
+
+
 Linux packages
 --------------
 
