@@ -34,10 +34,10 @@ Websites:
   <https://pypi.python.org/pypi/pytracemalloc>`_
 * `Source code at Github
   <https://github.com/vstinner/pytracemalloc>`_
-* `Statistics on the project at Ohloh
-  <https://www.ohloh.net/p/pytracemalloc/>`_
+* `Statistics on the project at Open Hub
+  <https://www.openhub.net/p/pytracemalloc/>`_
 * `Qt graphical interface: tracemallocqt
-  <https://bitbucket.org/haypo/tracemallocqt/>`_
+  <https://github.com/vstinner/tracemallocqt>`_
 
 The tracemalloc module has been integrated in Python 3.4: read `tracemalloc
 module documentation <http://docs.python.org/dev/library/tracemalloc.html>`_.
