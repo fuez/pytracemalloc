@@ -14,7 +14,7 @@ Websites:
 
 * Website: http://pytracemalloc.readthedocs.org/
 * PyPI entry: http://pypi.python.org/pypi/pytracemalloc
-* Source code: https://github.com/haypo/pytracemalloc
+* Source code: https://github.com/vstinner/pytracemalloc
 
 See ``doc/index.rst`` for the source of the documentation.
 

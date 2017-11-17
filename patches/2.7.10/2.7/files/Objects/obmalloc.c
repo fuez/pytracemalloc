@@ -2127,7 +2127,7 @@ Py_ADDRESS_IN_RANGE(void *P, poolp pool)
 #if defined(WITH_PYMALLOC) && defined(PYMALLOC_DEBUG)
 /* Dummy functions only present to keep the same ABI with the vanilla Python
    compiled in debug mode: they are not used in practice. See issue:
-   https://github.com/haypo/pytracemalloc/issues/1 */
+   https://github.com/vstinner/pytracemalloc/issues/1 */
 
 void* _PyMem_DebugMalloc(size_t nbytes)
 { return PyMem_RawMalloc(nbytes); }

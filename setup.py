@@ -74,7 +74,7 @@ def main():
         'description': 'Track memory allocations per Python file',
         'long_description': long_description,
         "url": "http://pytracemalloc.readthedocs.org/",
-        'download_url': 'https://github.com/haypo/pytracemalloc',
+        'download_url': 'https://github.com/vstinner/pytracemalloc',
         'author': 'Victor Stinner',
         'author_email': 'victor.stinner@gmail.com',
         'ext_modules': [ext],

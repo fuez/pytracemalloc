@@ -33,7 +33,7 @@ Websites:
 * `Entry in the Python Cheeseshop (PyPI)
   <https://pypi.python.org/pypi/pytracemalloc>`_
 * `Source code at Github
-  <https://github.com/haypo/pytracemalloc>`_
+  <https://github.com/vstinner/pytracemalloc>`_
 * `Statistics on the project at Ohloh
   <https://www.ohloh.net/p/pytracemalloc/>`_
 * `Qt graphical interface: tracemallocqt
