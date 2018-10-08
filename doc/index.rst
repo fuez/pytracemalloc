@@ -17,14 +17,12 @@ Python. It provides the following information:
   total size, number and average size of allocated memory blocks
 * Compute the differences between two snapshots to detect memory leaks
 
-To trace most memory blocks allocated by Python, the module should be started
-as early as possible by setting the :envvar:`PYTHONTRACEMALLOC` environment
-variable to ``1``. The :func:`tracemalloc.start` function can be called at runtime to
-start tracing Python memory allocations.
+The :func:`tracemalloc.start` function can be called at runtime to start 
+tracing Python memory allocations. To trace most memory blocks allocated by
+Python, it should be called as soon as possible.
 
 By default, a trace of an allocated memory block only stores the most recent
-frame (1 frame). To store 25 frames at startup: set the
-:envvar:`PYTHONTRACEMALLOC` environment variable to ``25``.
+frame (1 frame). To store 25 frames, use ``tracemalloc.start(25)``.
 
 Websites:
 
