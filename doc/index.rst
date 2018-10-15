@@ -24,7 +24,8 @@ start tracing Python memory allocations.
 
 By default, a trace of an allocated memory block only stores the most recent
 frame (1 frame). To store 25 frames at startup: set the
-:envvar:`PYTHONTRACEMALLOC` environment variable to ``25``.
+:envvar:`PYTHONTRACEMALLOC` environment variable to ``25``, or use 
+``tracemalloc.start(25)``.
 
 Websites:
 

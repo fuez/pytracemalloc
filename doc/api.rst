@@ -369,8 +369,6 @@ read `tracemalloc module documentation
 There are differences between the third party pytracemalloc module (downloaded
 from PyPI) and the tracemalloc which is part of the Python standard library:
 
-* stdlib tracemalloc supports a ``PYTHONTRACEMALLOC`` environment variable
-  to start tracing at Python startup.
 * stdlib tracemalloc supports a ``-X tracemalloc=NFRAMES`` command line option
   to start tracing at Python startup.
 
