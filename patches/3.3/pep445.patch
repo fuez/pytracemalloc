@@ -889,12 +889,12 @@ diff -r 0abe369829a3 Python/pythonrun.c
  
  void
  _Py_InitializeEx_Private(int install_sigs, int install_importlib)
-@@ -395,6 +429,8 @@ void
-         Py_XDECREF(warnings_module);
-     }
+@@ -397,6 +431,8 @@ _Py_InitializeEx_Private(int install_sig
  
-+    inittracemalloc();
-+
      if (!Py_NoSiteFlag)
          initsite(); /* Module site */
++
++    inittracemalloc();
  }
+ 
+ void

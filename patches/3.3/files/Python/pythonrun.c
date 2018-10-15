@@ -429,10 +429,10 @@ _Py_InitializeEx_Private(int install_sigs, int install_importlib)
         Py_XDECREF(warnings_module);
     }
 
-    inittracemalloc();
-
     if (!Py_NoSiteFlag)
         initsite(); /* Module site */
+
+    inittracemalloc();
 }
 
 void

@@ -927,15 +927,16 @@ index 7b85268c63..858205cbf2 100644
  void
  Py_InitializeEx(int install_sigs)
  {
-@@ -280,6 +315,8 @@ Py_InitializeEx(int install_sigs)
-     _PyGILState_Init(interp, tstate);
- #endif /* WITH_THREAD */
- 
-+    inittracemalloc();
-+
+@@ -283,6 +318,8 @@ Py_InitializeEx(int install_sigs)
      if (!Py_NoSiteFlag)
          initsite(); /* Module site */
  
++    inittracemalloc();
++
+     if ((p = Py_GETENV("PYTHONIOENCODING")) && *p != '\0') {
+         p = icodeset = codeset = strdup(p);
+         free_codeset = 1;
+
 -- 
 2.14.1
 

@@ -1004,13 +1004,12 @@ diff -r afe43d4c7ac2 -r 9b3082bc0cb8 Python/pythonrun.c
  void
  Py_InitializeEx(int install_sigs)
  {
-@@ -258,6 +293,8 @@ Py_InitializeEx(int install_sigs)
-     _PyGILState_Init(interp, tstate);
- #endif /* WITH_THREAD */
- 
-+    inittracemalloc();
-+
+@@ -261,6 +296,8 @@ Py_InitializeEx(int install_sigs)
      if (!Py_NoSiteFlag)
          initsite(); /* Module site */
  
-
++    inittracemalloc();
++
+     if ((p = Py_GETENV("PYTHONIOENCODING")) && *p != '\0') {
+         p = icodeset = codeset = strdup(p);
+         free_codeset = 1;

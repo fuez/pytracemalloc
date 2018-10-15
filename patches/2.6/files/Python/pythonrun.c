@@ -293,10 +293,10 @@ Py_InitializeEx(int install_sigs)
     _PyGILState_Init(interp, tstate);
 #endif /* WITH_THREAD */
 
-    inittracemalloc();
-
     if (!Py_NoSiteFlag)
         initsite(); /* Module site */
+
+    inittracemalloc();
 
     if ((p = Py_GETENV("PYTHONIOENCODING")) && *p != '\0') {
         p = icodeset = codeset = strdup(p);
