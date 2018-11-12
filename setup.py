@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 
-# Todo list to prepare a release:
+# Prepare a release:
+#
 #  - git pull --rebase
 #  - downloaded latest Python 2.7 and 3.3 releases, patch them, install them
 #  - run unit tests with Python 2.7 and 3.3
@@ -8,17 +9,22 @@
 #  - update "Manual installation" in doc/install.rst
 #  - reset option in setup.py: DEBUG=False
 #  - set release date in the doc/changelog.rst file
+#  - git commit -a
+#  - Remove untracked files/dirs: git clean -fdx
 #  - test the "Manual installation" on the latest Python 2.7 release
 #  - run test_patch.sh
-#  - git commit -a
-#  - git tag -a pytracemalloc-VERSION
 #  - git push
+#
+# Release a new version:
+#
+#  - git tag -a pytracemalloc-VERSION
 #  - git push --tags
-#  - python setup.py register sdist upload
+#  - Remove untracked files/dirs: git clean -fdx
+#  - python setup.py sdist upload
 #
 # After the release:
 #  - set version to n+1
-#  - git commit
+#  - git commit -a -m "post-release"
 #  - git push
 
 from __future__ import with_statement
