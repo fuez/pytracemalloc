@@ -4,7 +4,7 @@
 #
 #  - git pull --rebase
 #  - maybe compare .c and .h files with CPython master branch
-#  - update VERSION in _tracemalloc.c and setup.py
+#  - update VERSION in _tracemalloc.c, setup.py and doc/install.rst (patch)
 #  - update "Manual installation" in doc/install.rst
 #  - reset option in setup.py: DEBUG=False
 #  - set release date in the doc/changelog.rst file
@@ -23,7 +23,7 @@
 #  - python2 setup.py sdist upload
 #
 # After the release:
-#  - set version to n+1
+#  - set VERSION to n+1 in _tracemalloc.c, setup.py and doc/install.rst (patch)
 #  - git commit -a -m "post-release"
 #  - git push
 
@@ -37,7 +37,7 @@ import sys
 # Debug pytracemalloc
 DEBUG = False
 
-VERSION = '1.3'
+VERSION = '1.4'
 
 CLASSIFIERS = [
     'Development Status :: 4 - Beta',

@@ -1,7 +1,7 @@
 Changelog
 =========
 
-Version 1.3 (2018-10-12)
+Version 1.4 (2018-10-12)
 ------------------------
 
 - Fix code using the PYTHONTRACEMALLOC environment variable: it is now checked
@@ -10,6 +10,9 @@ Version 1.3 (2018-10-12)
 - Project moved to https://github.com/vstinner/pytracemalloc
 - tracemallocqt moved to https://github.com/vstinner/tracemallocqt
 - Add script to test patches.
+
+Note: tracemalloc 1.3 has no been released because of a mistake in the release
+procedure.
 
 Version 1.2 (2014-10-15)
 ------------------------
