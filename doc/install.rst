@@ -38,9 +38,14 @@ Go into the `/opt/tracemalloc` directory. Then follow these commands to compile 
     cd Python-2.7.15
     patch -p1 < ../pytracemalloc-1.2/patches/2.7.15/2.7/pep445.patch
     ./configure --enable-unicode=ucs4 --prefix=/opt/tracemalloc/py27
+    make
     make install
     cd ../pytracemalloc-1.2
     /opt/tracemalloc/py27/bin/python2.7 setup.py install
+
+You may also run unit tests::
+
+    /opt/tracemalloc/py27/bin/python2.7 test_tracemalloc.py -v
 
 You have now a patched Python 2.7 installed in
 ``/opt/tracemalloc/py27/bin/python2.7`` with the ``tracemalloc`` module

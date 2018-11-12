@@ -1,3 +1,5 @@
+# Script used by test_patch.py
+
 import tracemalloc
 
 # allocate some memory

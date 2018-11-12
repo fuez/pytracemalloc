@@ -8,6 +8,8 @@
 #  - update "Manual installation" in doc/install.rst
 #  - reset option in setup.py: DEBUG=False
 #  - set release date in the doc/changelog.rst file
+#  - test the "Manual installation" on the latest Python 2.7 release
+#  - run test_patch.sh
 #  - git commit -a
 #  - git tag -a pytracemalloc-VERSION
 #  - git push
