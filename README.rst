@@ -17,7 +17,7 @@ Python. It provides the following information:
 Quick Links:
 
 * `pytracemalloc documentation
-  <https://pytracemalloc.readthedocs.io/>`_ (this documentation)
+  <https://pytracemalloc.readthedocs.io/>`_
 * `Download pytracemalloc on PyPI
   <https://pypi.org/project/pytracemalloc/>`_
 * `pytracemalloc on GitHub (source code, bugs)
