@@ -3,19 +3,26 @@ include MANIFEST.in
 include README.rst
 include TODO
 
+include hashtable.c
+include hashtable.h
+include _tracemalloc.c
+include tracemalloc_runner.py
 include Makefile
 
-include patches/2.7/pep445.patch
+include patches/2.6/pep445.patch
+include patches/2.7.9/pep445.patch
+include patches/2.7.10/pep445.patch
+include patches/2.7.12/pep445.patch
+include patches/2.7.15/pep445.patch
 include patches/3.3/pep445.patch
 
 include doc/Makefile
 include doc/conf.py
 include doc/index.rst
 include doc/make.bat
+include doc/*.rst doc/*.jpg doc/*.png
 
-include tests/*.py
-
-include hashtable.c
-include hashtable.h
-include _tracemalloc.c
+include test_patch.sh
 include test_tracemalloc.py
+include test_tracemalloc_env_var.py
+include tests/*.py

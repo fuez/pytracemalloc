@@ -9,6 +9,7 @@
 #  - reset option in setup.py: DEBUG=False
 #  - set release date in the doc/changelog.rst file
 #  - git commit -a
+#  - Check that "python2 setup.py sdist" contains all files
 #  - Remove untracked files/dirs: git clean -fdx
 #  - test the "Manual installation" on the latest Python 2.7 release
 #  - run test_patch.sh
@@ -16,10 +17,10 @@
 #
 # Release a new version:
 #
-#  - git tag -a pytracemalloc-VERSION
+#  - git tag pytracemalloc-VERSION
 #  - git push --tags
 #  - Remove untracked files/dirs: git clean -fdx
-#  - python setup.py sdist upload
+#  - python2 setup.py sdist upload
 #
 # After the release:
 #  - set version to n+1
