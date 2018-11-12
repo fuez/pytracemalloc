@@ -20,7 +20,8 @@
 #  - git tag pytracemalloc-VERSION
 #  - git push --tags
 #  - Remove untracked files/dirs: git clean -fdx
-#  - python2 setup.py sdist upload
+#  - python2 setup.py sdist
+#  - twine upload dist/*
 #
 # After the release:
 #  - set VERSION to n+1 in _tracemalloc.c, setup.py and doc/install.rst (patch)
@@ -37,7 +38,7 @@ import sys
 # Debug pytracemalloc
 DEBUG = False
 
-VERSION = '1.4'
+VERSION = '1.5'
 
 CLASSIFIERS = [
     'Development Status :: 4 - Beta',

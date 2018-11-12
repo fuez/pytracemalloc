@@ -1,4 +1,4 @@
-#define VERSION "1.4"
+#define VERSION "1.5"
 
 #include "Python.h"
 #include "hashtable.h"
