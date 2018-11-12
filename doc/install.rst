@@ -36,7 +36,7 @@ Go into the `/opt/tracemalloc` directory. Then follow these commands to compile 
     tar -xf Python-2.7.15.tgz
     tar -xf pytracemalloc-1.2.tar.gz
     cd Python-2.7.15
-    patch -p1 < ../pytracemalloc-1.2/patches/2.7.15/2.7/pep445.patch
+    patch -p1 < ../pytracemalloc-1.2/patches/2.7.15/pep445.patch
     ./configure --enable-unicode=ucs4 --prefix=/opt/tracemalloc/py27
     make
     make install

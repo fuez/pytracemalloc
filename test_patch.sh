@@ -11,10 +11,10 @@ declare -a python_urls=(
 )
 declare -a patches=(
 "patches/2.6/pep445.patch"
-"patches/2.7/pep445.patch"
-"patches/2.7.10/2.7/pep445.patch"
-"patches/2.7.12/2.7/pep445.patch"
-"patches/2.7.15/2.7/pep445.patch"
+"patches/2.7.9/pep445.patch"
+"patches/2.7.10/pep445.patch"
+"patches/2.7.12/pep445.patch"
+"patches/2.7.15/pep445.patch"
 "patches/3.3/pep445.patch"
 )
 
