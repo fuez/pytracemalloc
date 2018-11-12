@@ -4,8 +4,12 @@ Changelog
 Version 1.3 (2018-10-12)
 ------------------------
 
-- update patch to Python 2.7.15
-- Python 3.3 is no longer officially supported
+- Fix code using the PYTHONTRACEMALLOC environment variable: it is now checked
+  after importing the site module, not before.
+- Update patch to Python 2.7.15
+- Project moved to https://github.com/vstinner/pytracemalloc
+- tracemallocqt moved to https://github.com/vstinner/tracemallocqt
+- Add script to test patches.
 
 Version 1.2 (2014-10-15)
 ------------------------
