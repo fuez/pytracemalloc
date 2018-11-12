@@ -14,11 +14,16 @@ Python. It provides the following information:
   total size, number and average size of allocated memory blocks
 * Compute the differences between two snapshots to detect memory leaks
 
-Websites:
+Quick Links:
 
-* Website: http://pytracemalloc.readthedocs.org/
-* PyPI entry: http://pypi.python.org/pypi/pytracemalloc
-* Source code: https://github.com/vstinner/pytracemalloc
+* `pytracemalloc documentation
+  <https://pytracemalloc.readthedocs.io/>`_ (this documentation)
+* `Download pytracemalloc on PyPI
+  <https://pypi.org/project/pytracemalloc/>`_
+* `pytracemalloc on GitHub (source code, bugs)
+  <https://github.com/vstinner/pytracemalloc>`_
+* `Qt graphical interface: tracemallocqt
+  <https://github.com/vstinner/tracemallocqt>`_
 
 See ``doc/index.rst`` for the source of the documentation.
 

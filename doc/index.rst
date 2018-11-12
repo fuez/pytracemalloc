@@ -4,6 +4,10 @@
 .. module:: tracemalloc
    :synopsis: Trace memory allocations.
 
+.. image:: http://unmaintained.tech/badge.svg
+   :target: http://unmaintained.tech/
+   :alt: No Maintenance Intended
+
 .. image:: tiger.jpg
    :alt: Tiger
    :align: right
@@ -24,19 +28,17 @@ start tracing Python memory allocations.
 
 By default, a trace of an allocated memory block only stores the most recent
 frame (1 frame). To store 25 frames at startup: set the
-:envvar:`PYTHONTRACEMALLOC` environment variable to ``25``, or use 
+:envvar:`PYTHONTRACEMALLOC` environment variable to ``25``, or use
 ``tracemalloc.start(25)``.
 
-Websites:
+Quick Links:
 
-* `Project homepage
-  <http://pytracemalloc.readthedocs.org/>`_ (this documentation)
-* `Entry in the Python Cheeseshop (PyPI)
-  <https://pypi.python.org/pypi/pytracemalloc>`_
-* `Source code at Github
+* `pytracemalloc documentation
+  <https://pytracemalloc.readthedocs.io/>`_ (this documentation)
+* `Download pytracemalloc on PyPI
+  <https://pypi.org/project/pytracemalloc/>`_
+* `pytracemalloc on GitHub (source code, bugs)
   <https://github.com/vstinner/pytracemalloc>`_
-* `Statistics on the project at Open Hub
-  <https://www.openhub.net/p/pytracemalloc/>`_
 * `Qt graphical interface: tracemallocqt
   <https://github.com/vstinner/tracemallocqt>`_
 
