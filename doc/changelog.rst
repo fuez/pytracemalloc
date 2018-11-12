@@ -1,6 +1,12 @@
 Changelog
 =========
 
+Version 1.3 (2018-10-12)
+------------------------
+
+- update patch to Python 2.7.15
+- Python 3.3 is no longer officially supported
+
 Version 1.2 (2014-10-15)
 ------------------------
 

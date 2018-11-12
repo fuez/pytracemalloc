@@ -31,12 +31,12 @@ First, create the directory ``/opt/tracemalloc``. Example::
 
 Go into the `/opt/tracemalloc` directory. Then follow these commands to compile a patched Python and install pytracemalloc::
 
-    wget http://www.python.org/ftp/python/2.7.8/Python-2.7.8.tgz
+    wget http://www.python.org/ftp/python/2.7.15/Python-2.7.15.tgz
     wget https://pypi.python.org/packages/source/p/pytracemalloc/pytracemalloc-1.2.tar.gz
-    tar -xf Python-2.7.8.tgz
+    tar -xf Python-2.7.15.tgz
     tar -xf pytracemalloc-1.2.tar.gz
-    cd Python-2.7.8
-    patch -p1 < ../pytracemalloc-1.2/patches/2.7/pep445.patch
+    cd Python-2.7.15
+    patch -p1 < ../pytracemalloc-1.2/patches/2.7.15/2.7/pep445.patch
     ./configure --enable-unicode=ucs4 --prefix=/opt/tracemalloc/py27
     make install
     cd ../pytracemalloc-1.2

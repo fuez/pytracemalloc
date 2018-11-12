@@ -5,6 +5,7 @@
 #  - downloaded latest Python 2.7 and 3.3 releases, patch them, install them
 #  - run unit tests with Python 2.7 and 3.3
 #  - update VERSION in _tracemalloc.c and setup.py
+#  - update "Manual installation" in doc/install.rst
 #  - reset option in setup.py: DEBUG=False
 #  - set release date in the doc/changelog.rst file
 #  - git commit -a
@@ -28,7 +29,7 @@ import sys
 # Debug pytracemalloc
 DEBUG = False
 
-VERSION = '1.2'
+VERSION = '1.3'
 
 CLASSIFIERS = [
     'Development Status :: 4 - Beta',
